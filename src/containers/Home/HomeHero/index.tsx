@@ -35,7 +35,7 @@ const HomeHero: FC = () => {
         }
         setHelloFadeClass(HelloFadeClass.fadeIn);
       }, 1000);
-    }, 5000);
+    }, 3000);
 
     return () => {
       clearInterval(interval);
